@@ -76,6 +76,7 @@ struct Loan
         else if (s1.getPercent()<40)
         {
             printf("\nSorry Student is not eligible for any Loan");
+            loanAmmount=0;
         }
     }
     // void getLoan(Employee e1)
